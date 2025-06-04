@@ -759,14 +759,19 @@ export const Website = (): JSX.Element => {
                 </div>
               </>
             ) : (
-              <iframe
-                className="w-full h-full object-cover rounded-lg"
-                src="https://www.youtube.com/embed/yskVwIi9Of8?autoplay=1"
-                title="tvCuricaca"
-                frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+              <>
+                <div className="w-full h-full object-cover rounded-lg">
+                  Testando
+                </div>
+              </>
+              // <iframe
+              //   className="w-full h-full object-cover rounded-lg"
+              //   //src="https://www.youtube.com/embed/yskVwIi9Of8?autoplay=1"
+              //   title="tvCuricaca"
+              //   frameBorder={0}
+              //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              //   allowFullScreen
+              // />
             )}
           </div>
           {/* Gallery section */}
