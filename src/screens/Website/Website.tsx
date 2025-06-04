@@ -192,6 +192,12 @@ const eventLocations = [
     subtitle: "",
     backgroundImage: "ProgramacaoEmBreve.svg",
   },
+  {
+    id: 4,
+    title: "EM BREVE",
+    subtitle: "",
+    backgroundImage: "ProgramacaoEmBreve.svg",
+  },
 ];
 
 // // Data for the gallery items
